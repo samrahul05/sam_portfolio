@@ -1,0 +1,28 @@
+about me 
+
+ <section class=" px-5 p-5 bg-blue-300">
+          
+    <div class="md:flex  md:jutify-around md:items-center">
+
+           <!-- left side -->
+      
+      <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" class="w-1/2 md:mx-0 mx-auto mb-8 borde-2 border-black  ">
+               <!-- <img class=" md:w-1/2  my-24 m-auto  " src="./sam cut.jpeg" alt=""> -->
+      </div>
+            
+            <!-- right side  -->
+
+      <div class=" md:w-1/2" data-aos="fade-up-left" data-aos-delay="500" data-aos-duration="1000">
+           
+        
+        <h1 class="text-center text-4xl mb-4">ＡＢＯＵＴ ＭＥ</h1>
+        <p class="text-center text-xl  mb-20 underline ">𝒲𝒽𝑜<span class="text-blue-700">𝐼'𝓂</span></p>
+        <h2 class="text-5xl mb-10 text-blue-700 md:text-center">𝐒𝐀𝐌 𝐑𝐀𝐇𝐔𝐋 .𝐑</h2>
+         <p class="text-xl">𝗛𝗲𝗹𝗹𝗼,𝗜'𝗺 𝗦𝗮𝗺 𝗥𝗮𝗵𝘂𝗹 𝗮𝗻𝗱 𝗜 𝗿𝗲𝗰𝗲𝗻𝘁𝗹𝘆 𝗴𝗿𝗮𝗱𝘂𝗮𝘁𝗲𝗱 𝘄𝗶𝘁𝗵 𝗮 𝗱𝗲𝗴𝗿𝗲𝗲 𝗶𝗻 <span class=" text-blue-700 bold  text-2xl">𝙱.𝙴-𝙴𝙲𝙴</span>𝗳𝗿𝗼𝗺 𝗩𝗲𝗹𝗮𝗹𝗮𝗿 𝗖𝗼𝗹𝗹𝗲𝗴𝗲 𝗼𝗳 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗮𝗻𝗱 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆 𝗶𝗻 𝗧𝗵𝗶𝗻𝗱𝗮𝗹,𝗘𝗿𝗼𝗱𝗲.𝗜'𝗺 𝗲𝘅𝗰𝗶𝘁𝗲𝗱 𝘁𝗼 𝗸𝗶𝗰𝗸𝘀𝘁𝗮𝗿𝘁 𝗺𝘆 𝗰𝗮𝗿𝗲𝗲𝗿 𝗶𝗻<span class="text-blue-700 text-2xl">𝚆𝙴𝙱 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙼𝙴𝙽𝚃 </span>,𝘄𝗵𝗲𝗿𝗲 𝗶 𝗵𝗼𝗽𝗲 𝘁𝗼 𝗮𝗽𝗽𝗹𝘆 𝗺𝘆 𝗸𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗮𝗻𝗱 𝗽𝗮𝘀𝘀𝗶𝗼𝗻 𝗳𝗼𝗿 <span class="text-blue-700 text-2xl"> 𝙳𝙴𝚂𝙸𝙶𝙽 </span>.𝗜'𝗺 𝗲𝗮𝗴𝗲𝗿 𝘁𝗼 𝗹𝗲𝗮𝗿𝗻,𝗴𝗿𝗼𝘄,𝗮𝗻𝗱 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗲 𝘁𝗼 𝗮 𝗱𝘆𝗻𝗮𝗺𝗶𝗰 𝘁𝗲𝗮𝗺.𝗟𝗲𝘁'𝘀 𝗰𝗼𝗻𝗻𝗲𝗰𝘁 𝗮𝗻𝗱 𝗲𝘅𝗽𝗹𝗼𝗿𝗲 𝗵𝗼𝘄 𝗺𝘆 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗲𝗻𝘁𝗵𝘂𝘀𝗶𝗮𝘀𝗺 𝗰𝗮𝗻 𝗯𝗲𝗻𝗶𝗳𝗶𝘁 𝘆𝗼𝘂𝗿 𝗼𝗿𝗴𝗮𝗻𝗶𝘀𝗮𝘁𝗶𝗼𝗻!</p>  
+
+      </div>
+
+    </div>
+
+  </section>
+

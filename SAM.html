@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./skills stuffs/react js icon (2).png">
+    <title>𝐒𝐀𝐌  | 𝐏𝐎𝐑𝐓𝐅𝐎𝐋𝐈𝐎</title>
+    <link rel="stylesheet" href="./SAM.css">
+   
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header class=" w-full top-0 right-0 left-0 z-50 md:py-1 transition-all duration-300">
+        <nav class="w-full   md:bg-transparent p-5">
+            <div class="flex items-center justify-between">
+                <div class="text-white md:ml-20">
+                        <!-- <a href="/">
+                    <img src="./sam logo.png" alt="" class="w-28 h-20 "> </a> -->
+                    <a href="./SAM.html" class="text-white text-4xl font-bold text-lg flex items-center gap-3  hover:text-blue-600">𝐒<span class="text-blue-600 hover:text-white">𝐀</span>𝐌</a>
+                    <!-- <img src="./sam logo.jpg" alt="" class="text-white w-20 md:hidden">S <span class="text-blue-900">A</span>M -->
+              
+                </div>
+                
+                <!-- only for large scr -->
+                <div class="hidden justify-around md:flex space-x-10">
+
+                  <button class="nav_btn">
+                    <a href="#home" class="text-white text-2xl  hover:text-blue-600  tracking-widest ">𝐇𝐎𝐌𝐄</a>
+                </button>  
+                <!-- <button class="nav_btn">
+                  <a href="#about" class="text-white text-2xl  hover:text-blue-600 tracking-widest">𝐀𝐁𝐎𝐔𝐓</a>
+              </button> -->
+              <button class="nav_btn">
+                <a href="#skills" class="text-white text-2xl  hover:text-blue-600  tracking-widest">𝐒𝐊𝐈𝐋𝐋𝐒</a>
+            </button>
+            <button class="nav_btn">
+              <a href="#education" class="text-white text-2xl  hover:text-blue-600 tracking-widest">𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍</a>
+          </button>
+          <!-- <button class="nav_btn">
+            <a href="#project" class="text-white text-2xl  hover:text-blue-600 tracking-widest">𝐏𝐑𝐎𝐉𝐄𝐂𝐓</a>
+        </button> -->
+        <button class="nav_btn">
+          <a href="#contact me" class="text-white text-2xl  hover:text-blue-600 tracking-widest">𝐂𝐎𝐍𝐓𝐀𝐂𝐓</a>
+      </button>
+                    
+                      
+                      <!-- <button class="nav_btn text-white">
+                       <a href="#about me" class=" active text-white text-xl hover:text-blue-600 hover:underline-blue-300">𝐀𝐁𝐎𝐔𝐓</a>
+                      </button> -->
+                      <!-- <button class="nav_btn text-white">
+                         <a href="#skills" class="text-white text-xl hover:text-blue-600">𝐒𝐊𝐈𝐋𝐋𝐒</a>
+                      </button>
+                      <button class="nav_btn text-white">
+                         <a href="#education" class="text-white text-xl hover:text-blue-600">𝐄𝐃𝐔𝐂𝐀𝐓𝐈𝐎𝐍</a>
+                      </button>
+                      <button class="nav_btn text-white">
+                         <a href="#projects" class="text-white text-xl hover:text-blue-600">𝐏𝐑𝐎𝐉𝐄𝐂𝐓</a>
+                      </button>
+                      <button class="nav_btn text-white">
+                         <a href="#contact me" class="text-white text-xl hover:text-blue-600">𝐂𝐎𝐍𝐓𝐀𝐂𝐓</a>
+                      </button> -->
+                   
+                </div>
+                  <!-- for menu button  -->
+                  
+                  <div class="container ml-96 pl-16 md:hidden ">
+                    <div class="toggle " id="mobile-menu-button">
+
+                      <lord-icon
+                       src="https://cdn.lordicon.com/cnpvyndp.json"
+                       trigger="hover"
+                       colors="primary:#2516c7"
+                       style="width:50px;height:50px">
+
+                      </lord-icon>
+                    </div>
+
+                  </div>
+                 
+
+                 
+            </div>
+             <!-- mobile menu  -->
+             <div id="mobile-menu" class="hidden md:hidden">
+                <a href="#home" class="mobile-nav-btn mb-2.5 text-center"> <span>𝐻𝒪𝑀𝐸</span></a>
+                <!-- <a href="#about me" class="mobile-nav-btn mb-2.5 text-center"><span>𝒜𝐵𝒪𝒰𝒯</span></a> -->
+                <a href="#skills" class="mobile-nav-btn mb-2.5 text-center"> <span>𝒮𝒦𝐼𝐿𝐿𝒮</span></a>
+                <a href="#education" class="mobile-nav-btn mb-2.5 text-center"> <span>𝐸𝒟𝒰𝒞𝒜𝒯𝐼𝒪𝒩</span></a>
+                <!-- <a href="#projects" class="mobile-nav-btn mb-2.5 text-center"><span>𝓟𝓡𝓞𝓙𝓔𝓒𝓣𝓢 </span></a> -->
+                <a href="#contact me" class="mobile-nav-btn mb-2.5 text-center"><span>𝒞𝒪𝒩𝒯𝒜𝒞𝒯</span></a>
+    
+     
+              </div>
+        </nav>
+    </header>
+
+ <!-- home section starts -->
+ <section class=" home-section box-border my-auto pt-20 py-10 px-28 md:h-screen md:w-fll" id="home" >
+        
+    <div class="home-box box-border  gap-6 md:flex md:justify-around md:items-center  gap-10 p-6" >
+        
+         <!-- left side  -->
+        <div class="p-10 md:w-1/2" data-aos="fade-left"
+        data-aos-duration="1000" >
+           <h1 class="text-7xl mb-10 ">𝐇𝐢 𝐓𝐡𝐞𝐫𝐞,</h1>
+           <span class="text-2xl md:text-4xl font-bold font-serif mb-5 uppercase"> <p >𝐈'𝐦 𝐚 <span class="typing-text font-serif"></span></p></span>
+          
+           <!-- <h2 class="text-5xl mb-10">𝐈'𝐦 𝐒𝐚𝐦 <span class="text-blue-500">𝐑𝐚𝐡𝐮𝐥</span> </h2> -->
+           <p class="text-1xl mt-5">𝐨𝐛𝐭𝐚𝐢𝐧 𝐚 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐫𝐨𝐥𝐞 𝐮𝐭𝐢𝐥𝐢𝐳𝐢𝐧𝐠 𝐦𝐲 𝐞𝐱𝐩𝐞𝐫𝐭𝐢𝐬𝐞 𝐢𝐧 𝐟𝐫𝐨𝐧𝐭-𝐞𝐧𝐝 𝐚𝐧𝐝 𝐛𝐚𝐜𝐤-𝐞𝐧𝐝 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐭𝐨 𝐛𝐮𝐢𝐥𝐝 𝐝𝐲𝐧𝐚𝐦𝐢𝐜 𝐚𝐧𝐝 𝐢𝐧𝐧𝐨𝐯𝐚𝐭𝐢𝐯𝐞 𝐰𝐞𝐛 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐭𝐡𝐚𝐭 𝐝𝐞𝐥𝐢𝐯𝐞𝐫 𝐞𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐚𝐥 𝐮𝐬𝐞𝐫 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞𝐬</p>
+           
+           <a style="--clr: #7808d0" class="aboutme_btn mt-10 mb-10 ">
+            <span class="button__icon-wrapper">
+                <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                </svg>
+                
+                <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                    <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                </svg>
+            </span>
+            𝗗 𝗼 𝘄 𝗻 𝗹 𝗼 𝗮 𝗱  𝗖𝗩
+        </a>
+            <!-- social media  -->
+            <!-- <div class="text-center ">
+                <button class="home_socialmedia_btn mr-2 md:mr-5">
+                    
+                    <img width="50" height="50" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin">
+                  </button> 
+                  <button class="home_socialmedia_btn mr-2 md:mr-5">
+                    <img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github">
+                  </button>
+                  <button class="home_socialmedia_btn mr-2 md:mr-5">
+                    <img width="50" height="50" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/>
+                  </button>
+                  <button class="home_socialmedia_btn mr-2 md:mr-5">
+                    <img width="50" height="50" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+                  </button>
+            </div> -->
+            
+        </div >
+        <!-- right side -->
+        <div class="home-image md:w-1/2">
+            <img draggable="false" class="tilt rounded-full hidden md:block  mx-auto  cursor-pointer" data-aos="fade-up"
+            data-aos-duration="3000" src="./about me  stuffs/cut photo sam.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- home section end -->
+
+                       <!-- About Me section  starts -->
+
+                       <!-- <section class=" w-full about_section mt-10 pt-20" id="about me">
+                        <div class="md:flex md:items-center"> -->
+                  
+                          <!-- left side  -->
+                          <!-- <div  class=" about-left  w-2/4  mx-auto md:w-1/4  md:mt-18  md:ml-32 rounded shadow-2xl shadow-gray-900 opacity-100" data-aos="fade-up"
+                          data-aos-duration="1000">
+                              <div class="p-5" >
+                                 <img src="./about me  stuffs/cut photo sam.jpeg" alt="" class=" mx-auto mt-10 mb-4 rounded-full w-32 h-32  border-white border-4 ">
+                                <h4 class="mt-4 mb-2 text-center text-3xl">𝐒𝐀𝐌 𝐑𝐀𝐇𝐔𝐋</h4>
+                                <hr class="w-20  h-1 bg-white mt-6 mb-2 mx-auto">
+                                <p class="text-center mb-10 text-xl mt-6">𝚆 𝙴 𝙱  𝙳 𝙴 𝚅 𝙴 𝙻 𝙾 𝙿 𝙴 𝚁</p>
+                              </div>
+                              <div class=" h-10   bg-white flex justify-around items-center rounded">
+                                <a href=""  class=""><img width="30" height="30"  src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
+                                <a href=""><img width="30" height="30" src="https://img.icons8.com/cute-clipart/64/instagram-new.png" alt="instagram-new"/></a>
+                                <a href=""><img width="30" height="30"  src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
+                                    
+                              </div >
+                             
+                                
+                          </div> -->
+                          <!-- right side  -->
+                          <!-- <div class="about-right mt-32 ml-20 md:w-6/12 p-5">
+                                 <h1 class="text-7xl mb-4" >𝐇𝐞𝐥𝐥𝐨</h1>
+                                 <p class="text-xl mb-10">𝗛𝗲𝗿𝗲'𝘀 𝗪𝗵𝗼 𝗜 𝗮𝗺 & 𝗪𝗵𝗮𝘁 𝗜 𝗱𝗼</p> -->
+                                     <!-- for resume button  -->
+                                     <!-- <button class="shadow__btn mb-10">
+                                      𝐑 𝐄 𝐒 𝐔 𝐌 𝐄
+                                    </button>
+                                    <p class="text-md">𝗜 𝗮𝗺 𝗮𝗻 𝗲𝗻𝘁𝗵𝘂𝘀𝗶𝗮𝘀𝘁𝗶𝗰 𝗮𝗻𝗱 𝗱𝗲𝘁𝗲𝗿𝗺𝗶𝗻𝗲𝗱 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿, 𝗲𝗮𝗴𝗲𝗿 𝘁𝗼 𝗲𝗺𝗯𝗮𝗿𝗸 𝗼𝗻 𝗮 𝗿𝗲𝘄𝗮𝗿𝗱𝗶𝗻𝗴 𝗰𝗮𝗿𝗲𝗲𝗿 𝗶𝗻 𝘁𝗵𝗲 𝘄𝗼𝗿𝗹𝗱 𝗼𝗳 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁. 𝗜 𝗵𝗮𝘃𝗲 𝗮 𝗽𝗮𝘀𝘀𝗶𝗼𝗻 𝗳𝗼𝗿 𝗰𝗿𝗲𝗮𝘁𝗶𝗻𝗴 𝗱𝘆𝗻𝗮𝗺𝗶𝗰 𝗮𝗻𝗱 𝘂𝘀𝗲𝗿-𝗳𝗿𝗶𝗲𝗻𝗱𝗹𝘆 𝘄𝗲𝗯𝘀𝗶𝘁𝗲𝘀, 𝗮𝗻𝗱 𝗜'𝗺 𝗲𝘅𝗰𝗶𝘁𝗲𝗱 𝘁𝗼 𝗹𝗲𝗮𝗿𝗻 𝗮𝗻𝗱 𝗴𝗿𝗼𝘄 𝗶𝗻 𝘁𝗵𝗶𝘀 𝗳𝗶𝗲𝗹𝗱. 𝗔𝘀 𝗮 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿, 𝗜 𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗲 𝗶𝗻 𝗱𝗲𝘀𝗶𝗴𝗻𝗶𝗻𝗴 𝗮𝗻𝗱 𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝘄𝗲𝗯𝘀𝗶𝘁𝗲𝘀 𝘂𝘀𝗶𝗻𝗴 𝗮 𝗿𝗮𝗻𝗴𝗲 𝗼𝗳 𝘁𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀, 𝗶𝗻𝗰𝗹𝘂𝗱𝗶𝗻𝗴 𝗛𝗧𝗠𝗟, 𝗖𝗦𝗦, 𝗮𝗻𝗱 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁. 𝗠𝘆 𝗴𝗼𝗮𝗹 𝗶𝘀 𝘁𝗼 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝘁𝗲 𝗺𝘆 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝗻𝗱 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗶𝘁𝘆 𝘁𝗼 𝗯𝘂𝗶𝗹𝗱 𝗶𝗻𝗻𝗼𝘃𝗮𝘁𝗶𝘃𝗲 𝘄𝗲𝗯 𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻𝘀 𝘁𝗵𝗮𝘁 𝗺𝗮𝗸𝗲 𝗮 𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗲 𝗶𝗺𝗽𝗮𝗰𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗹𝗮𝗻𝗱𝘀𝗰𝗮𝗽𝗲.
+                                      </p>
+                                  
+                          </div>
+                        </div>
+                       
+                      </section> -->
+
+                      <!-- about me section ends -->
+                     
+    <!-- skills section starts  -->
+    <section class="skills-section pt-20" id="skills">
+      <div class=" p-10">
+          <!-- for skills  -->
+          <h1 class="text-center text-5xl mb-5 " data-aos="fade-right"
+          data-aos-duration="1000" ><i class="fa-solid fa-laptop-code"></i> 𝐒𝐤𝐢𝐥𝐥𝐬</h1>
+          <!-- <h2 class="text-center text-5xl" data-aos="fade-left"
+          data-aos-duration="2000">𝐅𝐫𝐨𝐧𝐭 - 𝐄𝐧𝐝</h2> -->
+          <div class="flex  justify-evenly flex-wrap gap-10 md:gap-3 pt-10 pb-10 " data-aos="fade-left"
+          data-aos-duration="2000" >
+                
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/arcade/64/html-5.png" alt="html-5"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/color/48/css3.png" alt="css3"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/color-glass/48/bootstrap.png" alt="bootstrap"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/></a>
+            <!-- </div> -->
+            <!-- <h2 class="text-center text-5xl" data-aos="fade-left"
+            data-aos-duration="2000">𝐁𝐚𝐜𝐤 - 𝐄𝐧𝐝</h2> -->
+            <!-- <div class="flex  items-center justify-evenly flex-wrap gap-10 md:gap-3 pt-10 pb-2 " data-aos="fade-left"
+          data-aos-duration="2000" > -->
+          
+              
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="./skills stuffs/react js icon (2).png" alt="react-native"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/fluency/48/node-js.png" alt="node-js"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="./skills stuffs/express js  logo.png" alt="express-js"/></a>
+        </div>
+          
+
+          <!-- for tools  -->
+          <h1 class="text-center text-5xl mt-5 mb-3" data-aos="fade-right"
+      data-aos-duration="3000"><i class="fa-solid fa-screwdriver-wrench"></i>𝐓𝐨𝐨𝐥𝐬</h1>
+          <div class="flex  justify-center items-center gap-10 pt-10 pb-10 md:gap-10 " data-aos="fade-left"
+          data-aos-duration="3000">
+               
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1"  src="https://img.icons8.com/fluency/48/visual-studio-code-2019.png" alt="visual-studio-code-2019"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="https://img.icons8.com/color/48/git.png" alt="git"/></a>
+              <a href=""><img width="50" height="50" class="rotate-effect bg-white rounded-full p-1" src="./skills stuffs/postman.svg" alt=""></a>
+     
+          </div>
+      </div>
+  </section>
+
+  <!-- skills section ends  -->
+
+       <!-- education section starts -->
+       <section class="education-section min-h-screen pt-28 " id="education">
+        <h1 class="heading text-5xl font-bold text-center pb-5" data-aos="fade-down" 
+        data-aos-duration="2000" ><i class="fas fa-graduation-cap"></i> 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 </h1>
+  
+        <!-- <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p> -->
+    
+        <div class="box-container  p-10 flex-wrap  flex-col md:flex :justify-center md:items-center  ">
+    
+        <div class="box w-11/12  flex flex-row md:w-3/4 rounded-lg text-center relative mt-5 overflow-hidden bg-white" data-aos="fade-left"
+        data-aos-duration="1000" >
+            <div class="image">
+            <img draggable="false" class="relative w-full h-full" src="./eucation stuffs/velalar cllge img.jpg" alt="">
+            </div>
+            <div class="content relative flex flex-col p-4 flex-wrap">
+            <h3 class="text-2xl md:text-3xl    font-semibold text-left ml-10 mb-2">𝐔𝐆 | 𝐁𝐚𝐜𝐡𝐞𝐥𝐨𝐫 𝐨𝐟 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐢𝐧 𝐄𝐂𝐄</h3>
+            <p class="text-xl md:text-2xl ml-10 text-left mb-2">𝗩𝗲𝗹𝗮𝗹𝗮𝗿 𝗖𝗼𝗹𝗹𝗲𝗴𝗲 𝗼𝗳 𝗘𝗻𝗴𝗶𝗻𝗻𝗲𝗿𝗶𝗻𝗴 & 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆</p>
+            <p class="text-md md:text-4xl text-blue-900 text-left ml-10 font-sans font-extrabold ">𝟮𝟬𝟭𝟵-𝟮𝟬𝟮𝟯 | 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱 - 𝟳𝟵%</p>
+            </div>
+        </div>
+    
+        <div class="box w-11/12 flex flex-row md:w-3/4 rounded-lg text-center relative mt-5 mb-5 overflow-hidden bg-white"  data-aos="fade-right"
+        data-aos-duration="2000">
+          <div class="image">
+          <img draggable="false" class="relative w-full h-full" src="./eucation stuffs/kkn.jpg" alt="">
+          </div>
+          <div class="content relative flex flex-col p-4 flex-wrap">
+          <h3 class="text-2xl md:text-3xl   font-semibold text-left ml-10 mb-2">𝐇𝐒𝐂 | 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐒𝐜𝐢𝐞𝐧𝐜𝐞</h3>
+          <p class="text-xl md:text-2xl ml-10 text-left mb-2">𝗞𝗼𝗻𝗴𝘂 𝗞𝗮𝗹𝘃𝗶 𝗡𝗶𝗹𝗮𝘆𝗮𝗺</p>
+          <p class="text-md md:text-4xl text-blue-900 text-left ml-10 font-sans font-extrabold">𝟮𝟬𝟭𝟳-𝟮𝟬𝟭𝟵 | 𝗖𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗱 - 𝟲𝟵.𝟴%</p>
+          </div>
+        </div>
+    
+    </div>
+    </section>
+
+  <!-- education section ends -->
+  
+  
+   <!-- contact me starts -->
+      
+   <!-- contact me starts -->
+
+<section class=" contact-section pt-20 h-full p-10" id="contact me">
+       
+         
+  <div class="  mb-10  flex flex-wrap justify-around  items-center " data-aos="zoom-in"
+  data-aos-duration="2000" >
+          
+      <!-- left side -->
+
+       <div class=" w-auto mt-2 ml-6 px-10">
+          <p class="text-6xl "> <span class="text-blue-900">𝐂 𝐨 𝐧 𝐭 𝐚 𝐜 𝐭</span> 𝐌 𝐞</p>
+
+          <!-- <p class="text-xl ml-10 mb-2">​🇮​​🇫​ ​🇾​​🇴​​🇺​ ​🇼​​🇦​​🇳​​🇹​ ​🇹​​🇴​ ​🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ ​🇲​​🇪​,​🇹​​🇭​​🇪​​🇳​ ​🇨​​🇴​​🇳​​🇹​​🇦​​🇨​​🇹​ ​🇹​​🇭​​🇷​​🇴​​🇺​​🇳​​🇬​ ​🇹​​​​🇭​​🇮​​🇸</p> -->
+
+          <!-- social media  -->
+
+          <div class="  mt-10 ml-10 mb-2 box-border pl-10 ">
+              <div class="flex items-center">
+                  <a href=""><lord-icon
+                       src="https://cdn.lordicon.com/rsvfayfn.json"
+                       trigger="hover"
+                       style="width:50px;height:50px">
+                  </lord-icon></a>
+                  <a href=""><span class="text-2xl ml-2">𝟴𝟬𝟱𝟲𝟱𝟬𝟰𝟬𝟴𝟯</span></a>
+              </div>
+              <div class="flex items-center">
+                  <a href=""><lord-icon
+                       src="https://cdn.lordicon.com/nzixoeyk.json"
+                       trigger="hover"
+                       style="width:50px;height:50px">
+                  </lord-icon></a>
+                  
+                  <a href=""><span class="text-2xl ml-2">𝘀𝗮𝗺𝗺𝗶𝗰𝗵𝗹𝗲𝗮𝗸𝟰𝟳@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺</span></a>
+              </div>
+              <div class="flex items-center">
+                 <a href=""><lord-icon
+                       src="https://cdn.lordicon.com/surcxhka.json"
+                       trigger="hover"
+                       style="width:50px;height:50px">
+                  </lord-icon></a>
+                  <a href=""><span class="text-2xl ml-2">𝗘𝗿𝗼𝗱𝗲,𝗧𝗮𝗺𝗶𝗹 𝗡𝗮𝗱𝘂​​</span></a>
+              </div>
+          </div>
+
+          <!-- social media  -->
+          <div class="text-center mt-10  ">
+              <button class="home_socialmedia_btn mr-2 md:mr-5">
+                  
+                  <a href="https://www.linkedin.com/in/sam-rahul-401820251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img width="50" height="50" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"></a>
+                </button> 
+                <button class="home_socialmedia_btn mr-2 md:mr-5">
+                <a href="https://github.com/samrahul05"><img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/github.png" alt="github"></a>  
+                </button>
+                <button class="home_socialmedia_btn mr-2 md:mr-5">
+                <a href="https://x.com/DevilSa15320374?t=NvDotzpefrAS6rgzKaU_HA&s=08"><img width="50" height="50" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>  
+                </button>
+                <button class="home_socialmedia_btn mr-2 md:mr-5">
+                <a href="https://instagram.com/un_luckyboysam?igshid=MzMyNGUyNmU2YQ=="><img width="50" height="50" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a> 
+                </button>
+          </div>
+       </div>
+
+
+       <!-- right side  -->
+
+       <div class="  items-center  mt-20 w-auto  ">
+          <p class="text-2xl mb-6 text-center">Ｓｅｎｄ ｍｅ ａｎ <span class="text-blue-900  ">ｅｍａｉｌ</span></p>
+          <form method="get" class="text-center">
+              <input type="text" autocomplete="off" name="text" class="input-style" placeholder="Your Name" pattern="[A-Z,a-z]{0,10}"> <br> <br>
+              <input type="email" autocomplete="off" name="text" class="input-style" placeholder="Your email" pattern="[a-z0-9]+@[a-z.0-9]{0,15}"> <br> <br>
+              <textarea class="input-style text-area" placeholder="Your Message"></textarea> <br> <br>
+              <button class="contact_submit py-3 px-6 rounded-xl  ">𝙎 𝙪 𝙗 𝙢 𝙞 𝙩 </button>
+              </form>
+  </div>
+  </div>
+      
+</section>
+
+
+<!-- contact me ends  -->
+     
+
+
+
+
+
+
+
+
+
+    
+   
+
+     
+    
+
+
+
+
+
+
+                      <!-- vanilla tilt.js links -->
+                      <!-- for  home page image effect -->
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                      <!-- for typed text  -->
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                         
+
+
+
+
+    <script src="./SAM.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+</html>
